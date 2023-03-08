@@ -1,0 +1,72 @@
+name,data_per_month,call_minutes,text_messages,price_initial,mobile_carrier_id,carrier_url
+LTE 유심 (1GB/60분),1GB,60분,100건,"3,500원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=163&upPpnCd=U001&devKdCd=003
+LTE 유심 (1.5GB/통화기본),1.5GB,무제한,기본제공,"7,700원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=197&upPpnCd=U001&devKdCd=003
+LTE 유심 (1.5GB/150분),1.5GB,150분,100건,"5,450원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=285&upPpnCd=U001&devKdCd=003
+LTE 유심 (500MB/60분),500MB,60분,50건,"1,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=300&upPpnCd=U001&devKdCd=003
+LTE 유심 (1GB+/통화기본),1GB,무제한,기본제공,"9,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=358&upPpnCd=U001&devKdCd=003
+LTE 유심 (1GB+/100분),1GB,100분,100건,"7,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=359&upPpnCd=U001&devKdCd=003
+LTE 유심 (2.5GB+/200분),2.5GB,200분,100건,"9,500원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=355&upPpnCd=U002&devKdCd=003
+LTE 유심 (2.5GB/통화기본),2.5GB,무제한,기본제공,"9,400원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=198&upPpnCd=U002&devKdCd=003
+LTE 유심 (2.5GB/200분),2.5GB,200분,100건,"5,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=278&upPpnCd=U002&devKdCd=003
+LTE 유심 (5GB+/200분),5GB,200분,100건,"13,500원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=240&upPpnCd=U003&devKdCd=003
+LTE 유심 (4.5GB+/통화기본),4.5GB,무제한,기본제공,"14,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=241&upPpnCd=U003&devKdCd=003
+LTE 유심 (5GB/300분),5GB,300분,100건,"10,120원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=276&upPpnCd=U003&devKdCd=003
+LTE 유심 (4GB/통화기본),4GB,무제한,기본제공,"9,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=299&upPpnCd=U003&devKdCd=003
+LTE 유심 (6GB+/통화기본),6GB,무제한,기본제공,"16,800원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=247&upPpnCd=U004&devKdCd=003
+LTE 유심 (6GB/통화기본),6GB,무제한,기본제공,"13,200원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=200&upPpnCd=U004&devKdCd=003
+LTE 유심 (7GB+/통화기본),7GB,무제한,기본제공,"17,300원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=298&upPpnCd=U005&devKdCd=003
+LTE 유심 (9GB+/500분),9GB,500분,100건,"17,950원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=367&upPpnCd=U006&devKdCd=003
+LTE 유심 (9GB/3000분),9GB,3000분,1000건,"14,850원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=347&upPpnCd=U006&devKdCd=003
+LTE 유심 (10GB/100분),10GB,100분,100건,"12,600원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=368&upPpnCd=U007&devKdCd=003
+LTE 유심 (10GB+/통화기본),10GB,무제한,기본제공,"26,000원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=410&upPpnCd=U007&devKdCd=003
+LTE 유심 (15GB+/100분),15GB,100분,100건,"25,250원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=203&upPpnCd=U008&devKdCd=003
+LTE 유심 (15GB+/180분),15GB,180분,100건,"26,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=237&upPpnCd=U008&devKdCd=003
+LTE 유심 (15GB+/300분),15GB,300분,300건,"27,450원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=273&upPpnCd=U008&devKdCd=003
+LTE 유심 스페셜,11GB+일2GB,무제한,기본제공,"33,000원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=27&upPpnCd=U009&devKdCd=003
+LTE 유심 스페셜 프로,일5GB,무제한,기본제공,"38,990원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=178&upPpnCd=U009&devKdCd=003
+LTE 유심 스페셜 플러스,100GB,무제한,기본제공,"40,200원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=408&upPpnCd=U009&devKdCd=003
+5G 유심 (5GB/200분),5GB,200분,100건,"8,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=283&upPpnCd=U010&devKdCd=003
+5G 유심 (5GB/통화기본),5GB,무제한,기본제공,"11,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=282&upPpnCd=U010&devKdCd=003
+5G 유심 (10GB/통화기본),10GB,무제한,기본제공,"15,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=280&upPpnCd=U011&devKdCd=003
+5G 유심 (10GB/200분),10GB,200분,100건,"14,500원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=281&upPpnCd=U011&devKdCd=003
+5G 유심 (15GB/200분),15GB,200분,100건,"20,500원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=412&upPpnCd=U011&devKdCd=003
+5G 유심 스페셜 프로,180GB,무제한,기본제공,"50,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=189&upPpnCd=U012&devKdCd=003
+5G 유심 스페셜,150GB,무제한,기본제공,"47,500원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=270&upPpnCd=U012&devKdCd=003
+5G 유심 (12GB+/통화기본),12GB,무제한,기본제공,"33,000원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=271&upPpnCd=U012&devKdCd=003
+5G 유심 (31GB+/통화기본),31GB,무제한,기본제공,"37,800원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=416&upPpnCd=U012&devKdCd=003
+10%적립 5G 스페셜,150GB,무제한,기본제공,"51,700원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=371&upPpnCd=NPAY5G&devKdCd=003
+10%적립 5G(10GB/3000분),10GB,3000분,1000건,"18,700원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=366&upPpnCd=NPAY5G&devKdCd=003
+10%적립 5G (12GB+/통화기본),12GB,무제한,기본제공,"36,000원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=370&upPpnCd=NPAY5G&devKdCd=003
+10%적립 스페셜,10GB+일2GB,무제한,기본제공,"34,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=213&upPpnCd=NPAY&devKdCd=003
+10% 적립(1GB/250분),1GB,250분,100건,"6,600원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=215&upPpnCd=NPAY&devKdCd=003
+10%적립 (6GB+/통화기본),6GB,무제한,기본제공,"17,600원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=351&upPpnCd=NPAY&devKdCd=003
+10% 적립 (5GB/250분),5GB,250분,100건,"10,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=353&upPpnCd=NPAY&devKdCd=003
+10%적립 스페셜 프로,일5GB,무제한,기본제공,"42,300원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=369&upPpnCd=NPAY&devKdCd=003
+탄소중립실천포인트 스페셜 ,11GB ,무제한,기본제공,"33,000원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=404&upPpnCd=U017&devKdCd=003
+탄소중립실천포인트 (7GB+/통화기본),7GB,무제한,기본제공,"17,300원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=405&upPpnCd=U017&devKdCd=003
+자급제폰케어 스페셜,11GB+일2GB,무제한,기본제공,"33,880원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=315&upPpnCd=SelfCare&devKdCd=003
+자급제폰케어 (7GB+/통화기본),7GB,무제한,기본제공,"17,500원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=316&upPpnCd=SelfCare&devKdCd=003
+자급제폰케어 5G (10GB/3000분),10GB,3000분,1000건,"17,500원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=331&upPpnCd=U015&devKdCd=003
+자급제폰케어 5G (5GB/3000분),5GB,3000분,1000건,"12,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=334&upPpnCd=U015&devKdCd=003
+자급제폰케어 5G (15GB/200분),15GB,200분,100건,"20,500원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=413&upPpnCd=U015&devKdCd=003
+이십세 스페셜,11GB+일2GB,무제한,기본제공,"33,000원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=253&upPpnCd=USIMZ&devKdCd=003
+이십세 (10GB/180분),10GB,180분,100건,"14,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=255&upPpnCd=USIMZ&devKdCd=003
+이십세 (5GB/180분),5GB,180분,100건,"9,500원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=265&upPpnCd=USIMZ&devKdCd=003
+이십세 (15GB+/300분),15GB,300분,300건,"27,450원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=272&upPpnCd=USIMZ&devKdCd=003
+유심 시니어 (4GB+/통화기본),4GB,무제한,기본제공,"10,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=363&upPpnCd=USIMS&devKdCd=003
+유심 시니어 (1GB+/100분),1GB,100분,100건,"4,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=245&upPpnCd=USIMS&devKdCd=003
+유심 시니어 (8GB+/통화기본),8GB,무제한,기본제공,"14,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=356&upPpnCd=USIMS&devKdCd=003
+GS25 스페셜,11GB+일2GB,무제한,기본제공,"33,000원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=201&upPpnCd=U014&devKdCd=003
+GS25(5GB+/200분),5GB,200분,100건,"13,500원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=243&upPpnCd=U014&devKdCd=003
+GS25 (6GB+/통화기본),6GB,무제한,기본제공,"16,800원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=248&upPpnCd=U014&devKdCd=003
+GS25 (1.5GB/통화기본),1.5GB,무제한,기본제공,"7,700원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=266&upPpnCd=U014&devKdCd=003
+GS25(1.5GB/150분),1.5GB,150분,100건,"5,450원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=286&upPpnCd=U014&devKdCd=003
+GS25 (4GB/통화기본),4GB,무제한,기본제공,"9,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=301&upPpnCd=U014&devKdCd=003
+홈플러스(데이터·통화 마음껏),11GB+일2GB,무제한,기본제공,"33,000원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=162&upPpnCd=HP&devKdCd=003
+홈플러스(통화마음껏 데이터 6GB+),6GB,무제한,기본제공,"16,800원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=249&upPpnCd=HP&devKdCd=003
+홈플러스(통화마음껏 데이터 1.5GB),1.5GB,무제한,기본제공,"7,700원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=267&upPpnCd=HP&devKdCd=003
+홈플러스(1.5GB/150분),1.5GB,150분,100건,"5,450원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=287&upPpnCd=HP&devKdCd=003
+홈플러스 (통화마음껏 데이터 4GB),4GB,무제한,기본제공,"9,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=302&upPpnCd=HP&devKdCd=003
+카앤피플 스페셜,11GB+일2GB,무제한,기본제공,"39,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=258&upPpnCd=CARPLE&devKdCd=003
+유심 데이터만 10GB,10GB,미제공,미제공,"9,900원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=102&upPpnCd=UPAD&devKdCd=003
+유심 데이터만 20GB,20GB,미제공,미제공,"11,880원",2,https://www.uplusumobile.com/product/pric/pricDetail?seq=103&upPpnCd=UPAD&devKdCd=003
