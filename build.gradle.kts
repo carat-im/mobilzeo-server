@@ -46,3 +46,7 @@ tasks.withType<KotlinCompile> {
 tasks.withType<Test> {
     useJUnitPlatform()
 }
+
+if (project.hasProperty("real")) {
+    apply(rootProject.file("profile_real.gradle"))
+}
