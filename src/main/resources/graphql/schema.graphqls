@@ -1,19 +1,81 @@
 type Query{
-    mobile_plan:MobilePlan
-    mobile_carrier:MobileCarrier
-    textString:[String!]!
-    mobilePlans:[String!]!
+    mobilePlans:[MobilePlan!]!
+    mobilePlan(id:Int!): MobilePlan
 }
 
 type MobilePlan {
     id: ID!
-    mobile_carrier : MobileCarrier!
-    price_initial:Int!
     name:String!
+    price_initial: Int!
+    price_after_change: Int
+    initial_price_month: Int
+    data_per_month: Int!
+    data_per_day: Int
+    data_exhaustion_speed:Float
+    call_minutes: Int!
+    text_messages: Int!
+    main_carrier: String!
+    banners: [String!]!
+    view_count: Int!
+    usim_price: Int!
+    usim_nfc_price: Int
+    esim_price: Int
+    usim_subtitle: String!
+    usim_title: String!
+    usim_description: String
+    benefit: [Benefit!]!
+    thumbnail_url: String!
+    title: String!
+    subtitle: String!
+    subtitle_cancel: Boolean!
+    subtitle_question: String
+    youtube_url: String
+    ars_call_minutes: Int
+    carrier_app: String
+    hotspot_giga: Int
+    micropayments_months: Int
+    roaming_minutes: Int
+    Internet_iptv: String
+    family_complimentary: String
+    data_sharing: String
+    priority: Int!
+    signup_auth: String
+    signup_minors: String
+    signup_foreigners: String
+    plan_exceed: String!
+    carrier: MobileCarrier!
+    cta_url: String!
 }
 
 type MobileCarrier{
     id:ID!
-    name:String!
     thumbnail_url: String!
+    name: String!
+    support_skt: Boolean!
+    support_kt: Boolean!
+    support_lg: Boolean!
+    business_hour_title: String!
+    business_hour_subtitle: String!
+    customer_service: String!
+    location: String!
+}
+
+type Benefit{
+    thumbnail_url: String!
+    title: String!
+    subtitle: String!
+    subtitle_cancel: Boolean!
+    subtitle_question: String
+}
+
+type Carrier{
+    thumbnail_url: String!
+    name: String!
+    support_skt: Boolean!
+    support_kt: Boolean!
+    support_lg: Boolean!
+    business_hour_title: String!
+    business_hour_subtitle: String!
+    customer_service: String!
+    location: String!
 }

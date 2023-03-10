@@ -1,6 +1,7 @@
 package paradot.mobilzeo.dto
 
-class CarrierDto(
+class MobileCarrierDto(
+    val id: Int,
     val thumbnail_url: String,
     val name: String,
     val support_skt: Boolean,

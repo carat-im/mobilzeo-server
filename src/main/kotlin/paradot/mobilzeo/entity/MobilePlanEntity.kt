@@ -5,6 +5,8 @@ import jakarta.persistence.Entity
 import jakarta.persistence.GeneratedValue
 import jakarta.persistence.GenerationType
 import jakarta.persistence.Id
+import paradot.mobilzeo.dto.MobileCarrierDto
+import paradot.mobilzeo.dto.MobilePlanDto
 
 @Entity(name = "mobile_plan")
 class MobilePlanEntity {
@@ -27,8 +29,11 @@ class MobilePlanEntity {
     @Column(name = "data_per_month")
     var dataPerMonth: Int = 0
 
+    @Column(name = "data_per_day")
+    var dataPerDay: Int? = null
+
     @Column(name = "data_exhaustion_speed")
-    var dataExhaustionSpeed: Int? = null
+    var dataExhaustionSpeed: Double? = null
 
     @Column(name = "call_minutes")
     var callMinutes: Int = 0
@@ -100,7 +105,52 @@ class MobilePlanEntity {
     var signupForeigners: String? = null
 
     @Column(name = "plan_exceed")
-    var planExceed: String? = null
+    var planExceed: String = ""
 
     var name: String = ""
+
+    fun toMobilePlanDto(carrierDto: MobileCarrierDto?): MobilePlanDto? {
+        if (carrierDto == null) {
+            return null
+        }
+
+        return MobilePlanDto(
+            id = id,
+            name = name,
+            price_initial = priceInitial,
+            price_after_change = priceAfterChange,
+            initial_price_month = initialPriceMonth,
+            data_per_month = dataPerMonth,
+            data_per_day = dataPerDay,
+            data_exhaustion_speed = dataExhaustionSpeed,
+            call_minutes = callMinutes,
+            text_messages = textMessages,
+            main_carrier = mainCarrier,
+            banners = listOf(),
+            view_count = 0,
+            usim_price = usimPrice,
+            usim_nfc_price = usimNfcPrice,
+            esim_price = esimPrice,
+            usim_subtitle = usimSubtitle,
+            usim_title = usimTitle,
+            usim_description = usimDescription,
+            benefit = listOf(),
+            youtube_url = youtubeUrl,
+            ars_call_minutes = arsCallMinutes,
+            carrier_app = carrierApp,
+            hotspot_giga = hotspotGiga,
+            micropayments_months = micropaymentsMonths,
+            roaming_minutes = roamingMinutes,
+            internet_iptv = internetIptv,
+            family_complimentary = familyComplimentary,
+            data_sharing = dataSharing,
+            priority = 0,
+            signup_auth = signupAuth,
+            signup_minors = signupMinors,
+            signup_foreigners = signupForeigners,
+            plan_exceed = planExceed,
+            carrier = carrierDto,
+            cta_url = ctaUrl
+        )
+    }
 }

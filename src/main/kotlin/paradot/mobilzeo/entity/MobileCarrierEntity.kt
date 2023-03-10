@@ -5,6 +5,7 @@ import jakarta.persistence.Entity
 import jakarta.persistence.GeneratedValue
 import jakarta.persistence.GenerationType
 import jakarta.persistence.Id
+import paradot.mobilzeo.dto.MobileCarrierDto
 
 @Entity(name = "mobile_carrier")
 class MobileCarrierEntity {
@@ -32,5 +33,23 @@ class MobileCarrierEntity {
     @Column(name = "business_hour_subtitle")
     var businessHourSubtitle: String = ""
 
+    @Column(name = "customer_service")
+    var customerService: String = ""
+
     var location: String = ""
+
+    fun toMobileCarrierDto(): MobileCarrierDto {
+        return MobileCarrierDto(
+            id = id,
+            thumbnail_url = thumbnailUrl,
+            name = name,
+            support_skt = supportSkt,
+            support_kt = supportKt,
+            support_lg = supportLg,
+            business_hour_title = businessHourTitle,
+            business_hour_subtitle = businessHourSubtitle,
+            customer_service = customerService,
+            location = location
+        )
+    }
 }

@@ -2,6 +2,7 @@ package paradot.mobilzeo.dto
 
 class MobilePlanDto(
     val id: Int,
+    val name: String,
     val price_initial: Int,
     val price_after_change: Int?,
     val initial_price_month: Int?,
@@ -20,18 +21,13 @@ class MobilePlanDto(
     val usim_title: String,
     val usim_description: String?,
     val benefit: List<BenefitDto>,
-    val thumbnail_url: String,
-    val title: String,
-    val subtitle: String,
-    val subtitle_cancel: Boolean,
-    val subtitle_question: String?,
     val youtube_url: String?,
     val ars_call_minutes: Int?,
     val carrier_app: String?,
     val hotspot_giga: Int?,
     val micropayments_months: Int?,
     val roaming_minutes: Int?,
-    val Internet_iptv: String?,
+    val internet_iptv: String?,
     val family_complimentary: String?,
     val data_sharing: String?,
     val priority: Int,
@@ -39,6 +35,6 @@ class MobilePlanDto(
     val signup_minors: String?,
     val signup_foreigners: String?,
     val plan_exceed: String,
-    val carrier: CarrierDto,
+    val carrier: MobileCarrierDto,
     val cta_url: String
 )
