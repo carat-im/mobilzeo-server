@@ -1,0 +1,16 @@
+jib {
+    from {
+        image = "eclipse-temurin:17"
+    }
+    to {
+        image = "146781064668.dkr.ecr.ap-northeast-2.amazonaws.com/mobilzeo-server"
+        tags = ["latest", "real-${project.name}-${System.currentTimeMillis()}".toString()]
+    }
+    container {
+        creationTime = "USE_CURRENT_TIMESTAMP"
+        jvmFlags = ['-Dspring.profiles.active=real', '-Dserver.port=8080', '-Dfile.encoding=UTF-8']
+        ports = ['8080']
+        labels = [maintainer: 'johyun <johyun@carat.im>']
+        user = "nobody:nogroup"
+    }
+}

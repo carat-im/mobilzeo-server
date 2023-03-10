@@ -1,0 +1,55 @@
+spring:
+  application.name: mobilzeo-server
+  profiles.active: local
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: 'carat'
+    password: 'Rollingpin2021!'
+    hikari:
+      maximum-pool-size: 20
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 30s
+
+logging:
+  config: classpath:logback-${spring.profiles.active}.xml
+sentry:
+  dsn: https://9f2f2826f829452692929e24abb2761d@o1109511.ingest.sentry.io/6566593
+  logging.enabled: false
+  exception-resolver-order: -2147483647
+  sample-rate: 0.1
+aws:
+  access-key: AKIASELGVJXOFMIBNTLD
+  secret-key: Z82ryD+xNzFGTU5At8nooZVbqPPs0gyC4Tne7xr5
+  s3:
+    region: ap-northeast-2
+slack:
+  token: xoxb-2584657020352-4293493627664-Cpuswo2VAI7dvHnkUJ9z0NLm
+  channel:
+    monitor: '#z_report'
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+  jpa:
+    generate-ddl: true
+    show-sql: false
+  datasource.url: 'jdbc:postgresql://mobilzeo-db.ctytquqgpiec.ap-northeast-2.rds.amazonaws.com:5432/postgres'
+sentry:
+  logging.enabled: false
+---
+spring:
+  config:
+    activate:
+      on-profile: real
+  datasource.url: 'jdbc:postgresql://mobilzeo-db.ctytquqgpiec.ap-northeast-2.rds.amazonaws.com:5432/postgres'
+sentry:
+  logging.enabled: true
+  environment: production
