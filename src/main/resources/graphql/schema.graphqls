@@ -1,0 +1,19 @@
+type Query{
+    mobile_plan:MobilePlan
+    mobile_carrier:MobileCarrier
+    textString:[String!]!
+    mobilePlans:[String!]!
+}
+
+type MobilePlan {
+    id: ID!
+    mobile_carrier : MobileCarrier!
+    price_initial:Int!
+    name:String!
+}
+
+type MobileCarrier{
+    id:ID!
+    name:String!
+    thumbnail_url: String!
+}

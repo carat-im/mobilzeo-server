@@ -10,6 +10,12 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
+  graphql:
+    schema:
+      printer:
+        enabled: true
+    graphiql:
+      enabled: true
 
 server:
   port: 8080
@@ -29,10 +35,7 @@ aws:
   secret-key: Z82ryD+xNzFGTU5At8nooZVbqPPs0gyC4Tne7xr5
   s3:
     region: ap-northeast-2
-slack:
-  token: xoxb-2584657020352-4293493627664-Cpuswo2VAI7dvHnkUJ9z0NLm
-  channel:
-    monitor: '#z_report'
+
 ---
 spring:
   config:
