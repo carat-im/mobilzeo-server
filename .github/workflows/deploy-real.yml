@@ -36,7 +36,7 @@ jobs:
         with:
           task-definition: task-definition-real.json
           service: mobilzeo-server
-          cluster: mobilzeo-server
+          cluster: mobilzeo-server-real
           wait-for-service-stability: true
 
 #      - name: action-slack
