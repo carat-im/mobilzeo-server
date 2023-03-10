@@ -1,0 +1,47 @@
+name,data_per_month,data_per_day,call_minutes,text_messages,price_initial,mobile_carrier_id,carrier_url
+ L망후불 베이직,1500,,"-1
+",-1,20500,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+L망후불 웹,2500,,"-1
+ ",-1,30800,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+L망후불 톡,3500,,"-1
+",-1,37000,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+L망후불 5G라이트,12000,,"-1
+",-1,46400,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+L망후불 494,0,,"-1
+                         ",-1,49400,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+ L망후불 매일5GB,0,5000,"-1
+                         ",-1,60500,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+ L망후불 5G스탠다드,150000,,"-1
+                         ",-1,66000,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+L망후불 5G스페셜,180000,,"-1
+                         ",-1,70000,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+L망후불 스마트디바이스 10GB,10000,,0,0,14300,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+L망후불 스마트디바이스 20GB,20000,,0,0,19800,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+LTE 알뜰표준,0,,50,0,6500,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+LTE 기본,300,,50,30,9000,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+스마트디바이스 10GB,10000,,0,0,14300,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+시니어 2G,2000,,-1,-1,15400,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+LTE 실속데이터1,1000,,50,30,16400,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+스마트디바이스 20GB,20000,,0,0,19800,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+시니어 4G,4000,,-1,-1,22000,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+LTE 222,750,,160,200,22200,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+LTE 망내231,750,,-1,-1,23100,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+LTE 실속데이터2,2000,,50,30,24600,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+LTE 선택 246,300,,"-1
+",-1,24600,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+LTE 실속데이터(QoS),750,,160,200,25300,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+ LTE  망내 280,1500,,"-1
+",-1,28000,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+LTE 망내 338,2500,,"-1
+",-1,33800,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+LTE 후불데이터10G,10000,,100,100,34200,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+ LTE 선택 370,3000,,"-1
+",-1,37000,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+LTE 379,6000,,350,350,37900,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+ LTE 선택411,6000,,"-1
+",-1,41100,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+ LTE 선택494,10000,2000,"-1
+ ",-1,49400,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+후불 패드데이터 9G,9000,,0,0,50000,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+LTE 선택824,30000,2000,"-1
+ ",-1,82400,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp

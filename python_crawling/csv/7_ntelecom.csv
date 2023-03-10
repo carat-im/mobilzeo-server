@@ -1,0 +1,53 @@
+name,data_per_month,call_minutes,text_messages,price_initial,mobile_carrier_id,carrier_url
+LTE 알뜰표준,데이터 -,음성50분,문자-,6500,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+ LTE 기본,데이터 300MB,음성50분 ,문자30건,9000,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+스마트디바이스 10GB ,"데이터 10GB + 최대 200Kbps
+(기본 제공량 내에서 최대 10Mbps 속도 제어)",음성불가,문자수신만 가능,14300,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+ 시니어 2G,"데이터 기본제공 2GB
+                        (초과 시 400Kbps로 속도 제어)",음성기본제공,문자기본제공,15400,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+LTE 실속데이터1,데이터 1GB,음성50분 ,문자30건,16400,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+스마트디바이스 20GB ,"데이터 20GB + 최대 200Kbps
+(기본 제공량 내에서 최대 10Mbps 속도 제어)",음성불가,문자수신만 가능,19800,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+ 시니어 4G,"데이터 4GB
+                        (초과 시 400Kbps로 속도 제어)",음성기본제공,문자기본제공,22000,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+LTE 222,데이터 750MB,음성160분 ,문자200건,22200,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+ LTE 망내231,데이터 750MB,"음성망내 무선
+                        기본제공/
+                        망외 130분",문자기본제공,23100,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+LTE 실속데이터2,데이터 2GB,음성50분 ,문자30건,24600,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+"LTE
+                선택 246",데이터 300MB,"음성유무선기본제공
+(+영상/부가 30분)",문자기본제공,24600,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+ LTE 실속데이터(QoS),"데이터 750MB
+                        (가입월: 일할제공
+                        익월: 제공량
+                        초과 시 400kbps
+                        속도로 기본제공)",음성160분 ,문자200건,25300,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+" LTE
+                망내 280",데이터 1.5GB,"음성망내무선
+                        기본제공/
+                        망외 185분",문자기본제공,28000,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+"LTE
+                망내 338",데이터 2.5GB,"음성망내무선
+                        기본제공/
+                        망외 250분",문자기본제공,33800,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+ LTE 후불데이터10G ,데이터 10GB,음성100분 ,문자100건,34200,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+" LTE
+                선택 370",데이터 3GB,"음성유무선기본제공
+(+영상/부가 30분)",문자기본제공,37000,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+ LTE 379,데이터 6GB,음성350분 ,문자350건,37900,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+" LTE
+                선택411",데이터 6GB,"음성유무선기본제공
+(+영상/부가 30분)",문자기본제공,41100,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+" LTE
+                선택494","데이터 기본제공
+                        (10GB+일2GB+
+                        최대3Mbps속도제어)","음성유무선기본제공
+ (+영상/부가 200분)",문자기본제공,49400,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+"후불
+                패드데이터 9G",데이터 9GB,음성-,문자-,50000,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
+"LTE
+                선택824","데이터 기본제공
+                        (30GB+일2GB+
+                        최대5Mbps속도제어)","음성유무선기본제공
+ (+영상/부가 200분)",문자기본제공,82400,7,http://www.n-telecom.co.kr/products/KTdefer_lte.jsp
