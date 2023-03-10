@@ -16,4 +16,21 @@ class MobileCarrierEntity {
 
     @Column(name = "thumbnail_url")
     var thumbnailUrl: String = ""
+
+    @Column(name = "support_skt")
+    var supportSkt: Boolean = false
+
+    @Column(name = "support_kt")
+    var supportKt: Boolean = false
+
+    @Column(name = "support_lg")
+    var supportLg: Boolean = false
+
+    @Column(name = "business_hour_title")
+    var businessHourTitle: String = ""
+
+    @Column(name = "business_hour_subtitle")
+    var businessHourSubtitle: String = ""
+
+    var location: String = ""
 }

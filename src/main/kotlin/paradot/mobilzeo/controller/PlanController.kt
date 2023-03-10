@@ -7,7 +7,6 @@ import org.springframework.stereotype.Controller
 class PlanController {
     @QueryMapping
     fun mobilePlans(): List<String> {
-        print("djdd")
         return listOf("dd", "aa")
     }
 
