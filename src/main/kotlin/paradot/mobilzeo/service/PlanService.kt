@@ -3,13 +3,16 @@ package paradot.mobilzeo.service
 import org.springframework.data.repository.findByIdOrNull
 import org.springframework.stereotype.Service
 import paradot.mobilzeo.dto.MobilePlanDto
+import paradot.mobilzeo.entity.MobilePlanViewEntity
 import paradot.mobilzeo.repository.MobileCarrierRepository
 import paradot.mobilzeo.repository.MobilePlanRepository
+import paradot.mobilzeo.repository.MobilePlanViewRepository
 
 @Service
 class PlanService(
     private val mobilePlanRepository: MobilePlanRepository,
-    private val mobileCarrierRepository: MobileCarrierRepository
+    private val mobileCarrierRepository: MobileCarrierRepository,
+    private val mobilePlanViewRepository: MobilePlanViewRepository,
 ) {
 
     fun getMobilePlans(): List<MobilePlanDto> {
@@ -31,5 +34,12 @@ class PlanService(
             ?: return null
 
         return planEntity.toMobilePlanDto(carrierDto)
+    }
+
+    fun saveViewForMobilePlan(planId: Int): Int {
+        val viewEntity = MobilePlanViewEntity(planId)
+        val savedViewEntity = mobilePlanViewRepository.save(viewEntity)
+
+        return savedViewEntity.id
     }
 }

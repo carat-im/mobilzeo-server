@@ -1,6 +1,7 @@
 type Query{
     mobilePlans:[MobilePlan!]!
     mobilePlan(id:Int!): MobilePlan
+    saveViewForMobilePlan(id:Int!):Int
 }
 
 type MobilePlan {

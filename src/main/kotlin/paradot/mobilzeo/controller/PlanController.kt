@@ -17,4 +17,9 @@ class PlanController(private val planService: PlanService) {
     fun mobilePlan(@Argument id: Int): MobilePlanDto? {
         return planService.getMobilePlan(id)
     }
+
+    @QueryMapping
+    fun saveViewForMobilePlan(@Argument id: Int): Int{
+        return planService.saveViewForMobilePlan(id)
+    }
 }
