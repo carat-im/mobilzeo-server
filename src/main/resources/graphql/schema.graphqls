@@ -12,13 +12,13 @@ type MobilePlan {
     initial_price_month: Int
     data_per_month: Int!
     data_per_day: Int
-    data_exhaustion_speed:Float
+    data_exhaustion_speed:Int
     call_minutes: Int!
     text_messages: Int!
     main_carrier: String!
     banners: [String!]!
     view_count: Int!
-    usim_price: Int!
+    usim_price: Int
     usim_nfc_price: Int
     esim_price: Int
     usim_subtitle: String!
@@ -31,11 +31,11 @@ type MobilePlan {
     subtitle_cancel: Boolean!
     subtitle_question: String
     youtube_url: String
-    ars_call_minutes: Int
+    ars_call_minutes:String
     carrier_app: String
     hotspot_giga: Int
-    micropayments_months: Int
-    roaming_minutes: Int
+    micropayments_months:String
+    roaming_minutes:String
     Internet_iptv: String
     family_complimentary: String
     data_sharing: String

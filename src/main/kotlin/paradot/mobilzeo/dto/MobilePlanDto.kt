@@ -13,7 +13,7 @@ class MobilePlanDto(
     val text_messages: Int,
     val main_carrier: String,
     val banners: List<String>,
-    val view_count: Int,
+    var view_count: Int,
     val usim_price: Int?,
     val usim_nfc_price: Int?,
     val esim_price: Int?,

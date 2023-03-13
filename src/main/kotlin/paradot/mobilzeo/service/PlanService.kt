@@ -18,12 +18,19 @@ class PlanService(
     fun getMobilePlans(): List<MobilePlanDto> {
         val allCarrierIds = mobilePlanRepository.findAllCarrierIds()
         val allCarrierDtoList = mobileCarrierRepository.findAllById(allCarrierIds).map { it.toMobileCarrierDto() }
+        val allViewCountData = mobilePlanViewRepository.getMobilePlanViewCountData()
 
         return mobilePlanRepository.findAll()
             .mapNotNull {
                 val mobileCarrierDto =
                     allCarrierDtoList.firstOrNull { mobileCarrierDto -> mobileCarrierDto.id == it.mobileCarrierId }
-                it.toMobilePlanDto(mobileCarrierDto)
+
+                val mobilePlanDto = it.toMobilePlanDto(mobileCarrierDto)
+                    ?: return@mapNotNull null
+
+                mobilePlanDto.view_count =
+                    allViewCountData.firstOrNull { data -> data.itemId.toInt() == mobilePlanDto.id }?.viewCount?.toInt() ?: 0
+                mobilePlanDto
             }
     }
 
