@@ -1,0 +1,17 @@
+name,data_per_month,data_per_day,data_exhaustion_speed,call_minutes,text_messages,price_initial,mobile_carrier_id,cta_url
+eSIM표준 (1년간 6개월 0원),0,,,100,100,2900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getEsimChrgeSystemList.do
+eSIM 1G (1년간 6개월 0원),1024,,,100,100,4950,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getEsimChrgeSystemList.do
+eSIM 6G,6144,,,100,100,17900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getEsimChrgeSystemList.do
+eSIM 10G,10240,,,100,100,21400,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getEsimChrgeSystemList.do
+eSIM음성마음껏,300,,,-1,-1,14200,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getEsimChrgeSystemList.do
+eSIM데이터마음껏,15360,,,100,100,25300,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getEsimChrgeSystemList.do
+eSIM완전마음껏,11264,,,-1,-1,33000,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getEsimChrgeSystemList.do
+eSIM 3G (1년간 6개월 0원),3072,,,100,100,9900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getEsimChrgeSystemList.do
+eSIM완전마음껏 7GB+,7168,,,-1,-1,17600,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getEsimChrgeSystemList.do
+eSIM데이터3G+,3072,,,200,100,10450,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getEsimChrgeSystemList.do
+eSIM데이터5G+,5120,,,200,100,12650,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getEsimChrgeSystemList.do
+eSIM 티플 10GB (10GB/0분),10240,,,0,0,7500,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getEsimChrgeSystemList.do
+eSIM 티플 10GB (10GB/100분),10240,,,100,100,7990,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getEsimChrgeSystemList.do
+eSIM 티플 10GB (10GB/200분),10240,,,200,100,8500,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getEsimChrgeSystemList.do
+eSIM 티플 10GB (10GB/300분),10240,,,300,100,8990,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getEsimChrgeSystemList.do
+eSIM 티플 가성비 (300분/6GB),6144,,,300,300,6000,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getEsimChrgeSystemList.do

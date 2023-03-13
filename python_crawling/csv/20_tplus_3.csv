@@ -1,0 +1,116 @@
+name,data_per_month,data_per_day,data_exhaustion_speed,call_minutes,text_messages,price_initial,mobile_carrier_id,cta_url
+3G 표준,0,,,0,0,9700,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰음성8,0,,,0,0,5390,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰음성15,0,,,40,30,9900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰음성16,50,,,40,30,11990,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+[X6프로모션]알뜰음성8,1000,,,0,0,5390,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+[X6프로모션]알뜰음성15,1000,,,40,30,9900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰 스마트 18,100,,,40,20,14300,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰 스마트 22,200,,,30,20,16995,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰 스마트 28,400,,,90,40,24200,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰 스마트 33,500,,,100,50,29150,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰 스마트 38,700,,,120,70,34100,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰 스마트 48,1000,,,150,100,44550,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰 스마트 23,300,,,60,30,19250,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+[X6프로모션]알뜰 스마트 18,1100,,,40,20,14300,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰 데이터 20,500,,,0,0,16500,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰 데이터 29,1000,,,0,0,25300,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰 데이터 37,1500,,,0,0,33000,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰 데이터 45,2000,,,0,0,41250,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰 데이터 59,3000,,,0,0,56100,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰순스마트15,100,,,30,20,15400,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰순스마트18,200,,,40,20,18700,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰순스마트22,300,,,60,30,22000,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+알뜰순스마트27,500,,,100,50,27500,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+[NEW] 스마트데이터 19,900,,,30,0,21890,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+[NEW] 스마트데이터 28,1500,,,60,0,31790,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+[NEW] 스마트데이터 34,2000,,,90,0,38390,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+[NEW] 스마트데이터 39,2500,,,120,0,43890,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+스마트19,100,,,30,0,16500,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+스마트29,200,,,100,0,25300,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+3G 망내35,550,,,80,-1,28600,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+3G 망내46,1100,,,130,-1,35200,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+3G 망내57,2000,,,180,-1,42900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+3G 망내64,5000,,,280,-1,47850,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+3G 망내75,8000,,,380,-1,56650,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+3G 망내86,12000,,,500,-1,66000,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+3G 망내103,16000,,,800,-1,78100,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+티플 주니어 14,0,,,0,0,16390,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+티플 주니어 24,0,,,0,0,27390,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+3G 데이터중심31,300,,,-1,-1,31790,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+3G 데이터중심37,1200,,,-1,-1,37400,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+3G 데이터중심42,2200,,,-1,-1,42900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+3G 데이터중심48,3500,,,-1,-1,48400,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+3G 데이터중심52,6500,,,-1,-1,52800,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+3G 데이터중심62,11000,,,-1,-1,62590,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+3G 데이터중심72,16000,,,-1,-1,72600,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+3G 데이터중심84,20000,,,-1,-1,84700,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+3G 데이터중심106,35000,,,-1,-1,106700,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+티플자녀100분,0,,,100,100,2950,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+티플자녀150분,0,,,150,150,4400,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE 데이터중심31,300,,,-1,-1,31790,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE 데이터중심37,1200,,,-1,-1,37400,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE 데이터중심42,2200,,,-1,-1,42900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE 데이터중심48,3500,,,-1,-1,48400,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE 데이터중심52,6500,,,-1,-1,52800,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE 데이터중심62,11000,,,-1,-1,62590,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE 데이터중심72,16000,,,-1,-1,72600,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE 데이터중심84,20000,,,-1,-1,84700,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE 데이터중심106,35000,,,-1,-1,106700,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+뉴 LTE표준,0,,,0,0,9700,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE24 음성형,250,,,100,0,20900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE24 데이터형,650,,,30,0,20900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE28,700,,,100,0,25850,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE32,800,,,120,200,27500,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE39,1600,,,180,200,31350,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE49,2600,,,250,250,39050,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE59,5000,,,350,350,47300,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE69,9000,,,450,450,56100,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE82,13000,,,650,650,68200,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE알뜰음성9,0,,,0,0,5390,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE14데이터형,300,,,30,10,14900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE97,18000,,,1050,1050,80300,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+[프로모션]LTE14 데이터형,800,,,30,10,14900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+[X6프로모션]LTE14데이터형,1300,,,30,10,14900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE 망내35,550,,,80,-1,28600,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE 망내46,1100,,,130,-1,35200,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE 망내57,2000,,,180,-1,42900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE 망내64,5000,,,280,-1,47850,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE 망내75,8000,,,380,-1,56650,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE 망내86,12000,,,500,-1,66000,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE 망내103,16000,,,800,-1,78100,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+USIM LTE 4,1000,,,50,0,4390,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+USIM LTE5,1300,,,50,0,5390,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+USIM LTE100분3G,3000,,,100,100,9900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+USIM LTE 데이터중심 19,300,,,-1,-1,14200,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE안심무한15GB,15000,,,100,100,25300,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+USIM LTE 데이터중심 42,11000,,,-1,-1,33000,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+USIM LTE 100분3GB,3000,,,100,100,9900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+USIM LTE 14,1000,,,100,100,3500,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+USIM LTE 4,1000,,,50,0,1990,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+USIM LTE 5,1300,,,50,0,2400,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+3G알뜰스마트17,300,,,50,20,17600,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE알뜰스마트14,100,,,30,10,14300,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE알뜰스마트16,200,,,40,10,16900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE알뜰스마트19,300,,,30,10,19200,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE알뜰스마트21,300,,,60,10,21900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE데이터선택300M,300,,,-1,-1,31700,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE데이터선택1GB,1000,,,-1,-1,36100,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE데이터선택3GB,3000,,,-1,-1,46700,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE데이터선택10GB,10000,,,-1,-1,60300,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE데이터선택6GB,6000,,,-1,-1,50400,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE선택250MB,250,,,100,100,20900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE선택1GB,1000,,,100,100,27500,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE선택2GB,2000,,,100,100,30800,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE선택3GB,3000,,,100,100,37400,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE선택10GB,10000,,,100,100,45650,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+뉴LTE표준,0,,,0,0,9700,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+LTE알뜰음성9,0,,,0,0,5390,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+티플 10GB(10GB/300분),10000,,,300,100,8990,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+우체국 티플데이터2.5G,2500,,,200,200,4000,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+우체국 티플데이터6G,6000,,,300,300,6000,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+티플안심무한 300분/15G+,15000,,,300,300,28900,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+USIM LTE 데이터선택10GB,10000,,,-1,-1,34000,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+USIM 데이터ON 100GB,100000,,,-1,-1,45100,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+시니어스페셜4G+,4000,,,-1,-1,9920,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do
+시니어스페셜8G+,8000,,,-1,-1,14380,20,https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do

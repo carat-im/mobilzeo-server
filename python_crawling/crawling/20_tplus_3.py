@@ -1,13 +1,11 @@
 import csv
 import re
 import time
-import json
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from urllib.request import urlopen
 
-carrierId = 17
+carrierId = 20
 
 
 def toMB(s):
@@ -35,18 +33,18 @@ def getNumFlat(s):
 def getCallText(s):
     s = s.strip("음성\n").strip("문자\n")
 
-    if s == '기본' or '기본제공' in s or '집/이동전화 무제한' in s:
+    if s == '기본' or '기본제공' in s or '집/이동전화 무제한' in s or '무제한' in s:
         return "-1"
 
     result = getNumFlat(s.replace("건", "").replace("분", ""))
     if result == '':
-        print('hey : ' + s)
+        print('hey : getCallText : ' + s)
 
     return result
 
 
 def getDataPerMonth(dataText):
-    dataText = dataText.replace("데이터\n", "").strip('월').replace("\n", "")
+    dataText = dataText.replace("데이터\n", "").strip('월').replace("(GB)", "GB").replace("(MB)", "MB").replace(",", "")
 
     # 불안쓰
     if '매일' in dataText:
@@ -57,6 +55,9 @@ def getDataPerMonth(dataText):
         return 0
     if dataText == '-':
         return 0
+
+    if dataText == '무제한':
+        return -1
 
     endIndex = len(dataText)
     if '+' in dataText:
@@ -75,17 +76,30 @@ def getDataPerMonth(dataText):
 
 
 def getDataPerDay(dataText):
+    dataText = dataText.replace("\n", "")
+
     if '일' not in dataText:
         return ''
     else:
         dataText = dataText.replace("추가사용", "")
 
         startIndex = dataText.index('일')
-        endIndex = min(dataText.rfind('+'), len(dataText))
-        return toMB(dataText[startIndex + 1: endIndex])
+
+        endIndex = len(dataText)
+        if '+' in dataText:
+            endIndex = min(endIndex, dataText.rfind('+'))
+        if '(' in dataText:
+            endIndex = min(endIndex, dataText.rfind('('))
+
+        result = toMB(dataText[startIndex + 1: endIndex])
+        if result == '':
+            print('hey : getDataPerDay : ' + dataText)
+        return result
 
 
 def getDataExhaustionSpeed(dataText):
+    dataText = dataText.replace("\n", "")
+
     if 'Mbps' not in dataText and 'kbps' not in dataText and 'Kbps' not in dataText:
         return ''
     else:
@@ -101,6 +115,8 @@ def getDataExhaustionSpeed(dataText):
             startIndex = max(startIndex, dataText.rfind('소진 후') + 4)
         if dataText.rfind('소진후 속도제한') >= 0:
             startIndex = max(startIndex, dataText.rfind('소진후 속도제한') + 8)
+        if dataText.rfind('이후') >= 0:
+            startIndex = max(startIndex, dataText.rfind('이후') + 2)
 
         rawDataExhaustionSpeed = dataText[startIndex: endIndex].replace('기본제공', '')
 
@@ -118,63 +134,36 @@ def getPrice(price):
     return getNumFlat(price.replace('월', '').replace('원', ''))
 
 
-# driver = webdriver.Chrome("/opt/homebrew/bin/chromedriver")
-# driver.get("https://www.mobing.co.kr/product/plan/price")
+driver = webdriver.Chrome("/opt/homebrew/bin/chromedriver")
+driver.get("https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do")
 
-with open("../csv/" + str(carrierId) + "_moving.csv", "w", newline="") as file:
+with open("../csv/" + str(carrierId) + "_tplus_3.csv", "w", newline="") as file:
     writer = csv.writer(file)
     writer.writerow(["name", "data_per_month", "data_per_day", "data_exhaustion_speed", "call_minutes", "text_messages",
                      "price_initial", "mobile_carrier_id", "cta_url"])
 
-    plans = []
-    for i in range(1, 6):
-        response = urlopen(
-            'https://www.mobing.co.kr/api/product/getPlanList?page=1&limit=100&type=3&searchAmount=' + str(
-                i) + '&serviceType=2')
-        plans += json.loads(response.read())["entity"]["list"]
-
-    print(len(plans))
-    print(plans[0])
+    plans = driver.find_elements(By.CLASS_NAME, 'planBody')
 
     for plan in plans:
-        try:
-            name = plan['planNM']
-            call_minutes = 0
-            if plan['basicVoice'] == 99999:
-                call_minutes = -1
-            else:
-                call_minutes = plan['basicVoice']
+        name = plan.find_element(By.XPATH, '*[@id="listUsim"]/li/div[1]/strong').text.replace("\n", " ")
+        call_minutes = getCallText(plan.find_element(By.XPATH, '*[@id="listUsim"]/li/div[2]/div[1]/div[2]/em').text)
+        text_messages = getCallText(plan.find_element(By.XPATH, '*[@id="listUsim"]/li/div[2]/div[1]/div[3]/em').text)
 
-            text_messages = 0
-            if (plan['basicSms'] == 99999):
-                text_messages = -1
-            else:
-                text_messages = plan['basicSms']
-
-            if call_minutes == '' or text_messages == '':
-                continue
-
-            data_per_month = 0
-            if plan['basicDataMon'] is not None:
-                data_per_month = toMB(plan['basicDataMon'] + plan['basicDataMonUnit'])
-
-            data_per_day = 0
-            if plan['basicDataDay'] is not None:
-                data_per_day = toMB(plan['basicDataDay'] + plan['basicDataDayUnit'])
-
-            data_exhaustion_speed = ''
-            if plan['basicQos'] is not None:
-                data_exhaustion_speed = getDataExhaustionSpeed(plan['basicQos'] + plan['basicQosUnit'])
-
-            price_initial = plan['totalAmountMon']
-
-            mobile_carrier_id = carrierId
-            cta_url = "https://www.mobing.co.kr/product/plan/view?planID=" + plan['planID']
-
-            writer.writerow(
-                [name, data_per_month, data_per_day, data_exhaustion_speed, call_minutes, text_messages,
-                 price_initial,
-                 mobile_carrier_id, cta_url])
-        except:
-            print('e')
+        if call_minutes == '' or text_messages == '':
             continue
+        data = plan.find_element(By.XPATH, '*[@id="listUsim"]/li/div[2]/div[1]/div[1]/em').text
+
+        data_per_month = getDataPerMonth(data)
+        data_per_day = getDataPerDay(data)
+        data_exhaustion_speed = getDataExhaustionSpeed(data)
+        price_initial = getPrice(
+            plan.find_element(By.XPATH, '*[@id="listUsim"]/li/div[2]/div[2]/div[3]/em').text)
+
+        mobile_carrier_id = carrierId
+        # cta_url = plan.find_element(By.XPATH, 'div[2]/a').get_attribute('href')
+        cta_url = "https://www.tplusmobile.com/view/phoneChrgeSystem/getPhoneChrgeSystemList.do"
+
+        writer.writerow(
+            [name, data_per_month, data_per_day, data_exhaustion_speed, call_minutes, text_messages,
+             price_initial,
+             mobile_carrier_id, cta_url])
