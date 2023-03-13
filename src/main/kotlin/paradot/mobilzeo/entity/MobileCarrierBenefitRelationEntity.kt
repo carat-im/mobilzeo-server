@@ -10,6 +10,7 @@ import jakarta.persistence.Id
 class MobileCarrierBenefitRelationEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    var id: Int = -1
 
     @Column(name = "mobile_carrier_id")
     var mobileCarrierId: Int = -1
