@@ -1,0 +1,25 @@
+name,data_per_month,data_per_day,data_exhaustion_speed,call_minutes,text_messages,price_initial,mobile_carrier_id,cta_url
+"[일반] 통화, 데이터 마음대로 7GB+",7000,0,1000,-1,-1,4400,24,https://www.kgmobile.co.kr/plan/36
+"[일반] 통화, 데이터 마음대로 11GB+",11000,2000,3000,-1,-1,16500,24,https://www.kgmobile.co.kr/plan/35
+"[모빌카드 스페셜] 통화, 데이터 마음대로 7GB+",7000,0,1000,-1,-1,24200,24,https://www.kgmobile.co.kr/plan/28
+[모빌카드 스페셜] 데이터 마음대로 (15GB+/180분),15000,100000,3000,180,100,34100,24,https://www.kgmobile.co.kr/plan/45
+[일반] 데이터 마음대로 (5GB+/200분),5000,0,1000,200,100,11500,24,https://www.kgmobile.co.kr/plan/44
+[모빌카드 스페셜] 데이터 마음대로 (1GB+/100분),1000,0,1000,100,100,15400,24,https://www.kgmobile.co.kr/plan/43
+[일반] 데이터 마음대로 (15GB+/300분),15000,0,3000,300,300,17600,24,https://www.kgmobile.co.kr/plan/42
+[모빌카드 스페셜] 데이터 마음대로 (5GB+/200분),5000,0,1000,200,100,23100,24,https://www.kgmobile.co.kr/plan/41
+[모빌카드 스페셜] 데이터 마음대로 (15GB+/300분),15000,10000,3000,300,300,35200,24,https://www.kgmobile.co.kr/plan/40
+[일반] 데이터 마음대로 (15GB+/180분),15000,0,3000,180,100,17000,24,https://www.kgmobile.co.kr/plan/39
+[일반] 데이터 마음대로 (15GB+/100분),15000,0,3000,100,100,16500,24,https://www.kgmobile.co.kr/plan/38
+[일반] 데이터 마음대로 (10GB+/200분),10000,0,1000,200,100,13200,24,https://www.kgmobile.co.kr/plan/37
+"[일반] 통화, 데이터 마음대로 Pro",0,5000,5000,-1,-1,18700,24,https://www.kgmobile.co.kr/plan/34
+[모빌카드 스페셜] 데이터 마음대로 (15GB+/100분),15000,0,3000,100,100,33000,24,https://www.kgmobile.co.kr/plan/33
+[일반] 유심 5G 180GB+,180000,0,10000,-1,-1,41500,24,https://www.kgmobile.co.kr/plan/32
+[모빌카드 스페셜] 데이터 마음대로 (10GB+/200분),10000,0,1000,200,100,26400,24,https://www.kgmobile.co.kr/plan/31
+[일반] 유심 5G 150GB+,150000,0,5000,-1,-1,39200,24,https://www.kgmobile.co.kr/plan/30
+[일반] 데이터 마음대로 (1GB+/100분),1000,0,1000,100,100,7700,24,https://www.kgmobile.co.kr/plan/29
+"[모빌카드 스페셜] 통화, 데이터 마음대로 11GB+",11000,2000,3000,-1,-1,41800,24,https://www.kgmobile.co.kr/plan/27
+"[모빌카드 스페셜] 통화, 데이터 마음대로 Pro",0,5000,5000,-1,-1,47300,24,https://www.kgmobile.co.kr/plan/26
+[모빌카드 스페셜] 유심 5G 180GB+,180000,0,10000,-1,-1,59400,24,https://www.kgmobile.co.kr/plan/25
+[모빌카드 스페셜] 유심 5G 150GB+,150000,0,5000,-1,-1,56100,24,https://www.kgmobile.co.kr/plan/24
+[모빌카드 스페셜] 유심 5G 12GB+,12000,0,1000,-1,-1,41800,24,https://www.kgmobile.co.kr/plan/23
+[일반] 유심 5G 12GB+,12000,0,1000,-1,-1,29200,24,https://www.kgmobile.co.kr/plan/22

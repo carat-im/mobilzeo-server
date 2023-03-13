@@ -1,0 +1,18 @@
+name,data_per_month,data_per_day,data_exhaustion_speed,call_minutes,text_messages,price_initial,mobile_carrier_id,cta_url
+스탠다드 1GB,1000,,,100,1,0,25,https://marvelring.com/usim/entry-soc/?type=price
+스탠다드 1.5GB,1500,,,120,15,3600,25,https://marvelring.com/usim/entry-soc/?type=price
+스탠다드 1GB+1Mbps,1000,,1000,100,1,9930,25,https://marvelring.com/usim/entry-soc/?type=price
+프라임 7GB + 1Mbps,7000,,1000,-1,7,9000,25,https://marvelring.com/usim/entry-soc/?type=price
+프라임 11GB+일2GB+3Mbps,11000,2000,3000,-1,112,18000,25,https://marvelring.com/usim/entry-soc/?type=price
+프라임 5G 12GB+1Mbps,12000,,1000,-1,12,17000,25,https://marvelring.com/usim/entry-soc/?type=price
+[평생할인] 초이스 1.3GB,1300,,,-1,13,16700,25,https://marvelring.com/usim/entry-soc/?type=price
+[평생할인] 초이스 300MB,300,,,-1,300,13700,25,https://marvelring.com/usim/entry-soc/?type=price
+스탠다드 2.5GB+1Mbps,2500,,1000,250,250,14800,25,https://marvelring.com/usim/entry-soc/?type=price
+프라임 15GB+3Mbps,1500,,3000,100,100,12000,25,https://marvelring.com/usim/entry-soc/?type=price
+프라임 3.5GB+1Mbps,3500,,1000,-1,-1,18900,25,https://marvelring.com/usim/entry-soc/?type=price
+[중고폰결합] 프라임 5G 150GB+5Mbps,150000,,10000,-1,150,29700,25,https://marvelring.com/usim/entry-soc/?type=price
+[평생할인] 초이스 1.5GB,1500,,,-1,15,20690,25,https://marvelring.com/usim/entry-soc/?type=price
+[평생할인] 초이스 2.3GB,2300,,,-1,23,20500,25,https://marvelring.com/usim/entry-soc/?type=price
+프라임 5G 150GB+5Mbps,150000,,5000,-1,150,29700,25,https://marvelring.com/usim/entry-soc/?type=price
+프라임 5G 180GB+10Mbps,180000,,10000,-1,180,34900,25,https://marvelring.com/usim/entry-soc/?type=price
+프라임 매일 5GB+5Mbps,0,5000,5000,-1,5,34900,25,https://marvelring.com/usim/entry-soc/?type=price
