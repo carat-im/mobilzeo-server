@@ -8,7 +8,7 @@ import jakarta.persistence.Id
 import paradot.mobilzeo.dto.MobileCarrierDto
 import paradot.mobilzeo.dto.MobilePlanDto
 
-@Entity(name = "mobile_plan")
+@Entity(name = "mobile_plan_400")
 class MobilePlanEntity {
 
     @Id
@@ -33,7 +33,7 @@ class MobilePlanEntity {
     var dataPerDay: Int? = null
 
     @Column(name = "data_exhaustion_speed")
-    var dataExhaustionSpeed: Double? = null
+    var dataExhaustionSpeed: Int? = null
 
     @Column(name = "call_minutes")
     var callMinutes: Int = 0
@@ -63,10 +63,10 @@ class MobilePlanEntity {
     var ctaUrl: String = ""
 
     @Column(name = "ars_call_minutes")
-    var arsCallMinutes: Int? = null
+    var arsCallMinutes: String? = null
 
     @Column(name = "usim_price")
-    var usimPrice: Int = 0
+    var usimPrice: Int? =null
 
     @Column(name = "usim_nfc_price")
     var usimNfcPrice: Int? = null
@@ -81,10 +81,10 @@ class MobilePlanEntity {
     var hotspotGiga: Int? = null
 
     @Column(name = "micropayments_months")
-    var micropaymentsMonths: Int? = null
+    var micropayments: String? = null
 
     @Column(name = "roaming_minutes")
-    var roamingMinutes: Int? = null
+    var roamingMinutes: String? = null
 
     @Column(name = "internet_iptv")
     var internetIptv: String? = null
@@ -141,7 +141,7 @@ class MobilePlanEntity {
             ars_call_minutes = arsCallMinutes,
             carrier_app = carrierApp,
             hotspot_giga = hotspotGiga,
-            micropayments_months = micropaymentsMonths,
+            micropayments_months = micropayments,
             roaming_minutes = roamingMinutes,
             internet_iptv = internetIptv,
             family_complimentary = familyComplimentary,
