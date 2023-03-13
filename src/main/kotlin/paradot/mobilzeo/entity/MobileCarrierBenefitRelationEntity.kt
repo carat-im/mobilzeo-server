@@ -6,14 +6,13 @@ import jakarta.persistence.GeneratedValue
 import jakarta.persistence.GenerationType
 import jakarta.persistence.Id
 
-@Entity(name = "mobile_plan_benefit_relation")
-class MobilePlanBenefitRelationEntity {
+@Entity(name = "mobile_carrier_benefit_relation")
+class MobileCarrierBenefitRelationEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    var id: Int = -1
 
-    @Column(name = "mobile_plan_id")
-    var mobilePlanId: Int = -1
+    @Column(name = "mobile_carrier_id")
+    var mobileCarrierId: Int = -1
 
     @Column(name = "benefit_id")
     var benefitId: Int = -1

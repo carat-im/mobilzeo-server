@@ -11,7 +11,7 @@ class PlanService(
     private val mobilePlanRepository: MobilePlanRepository,
     private val mobileCarrierRepository: MobileCarrierRepository,
     private val mobilePlanViewRepository: MobilePlanViewRepository,
-    private val mobilePlanBenefitRelationRepository: MobilePlanBenefitRelationRepository,
+    private val mobileCarrierBenefitRelationRepository: MobileCarrierBenefitRelationRepository,
 
     private val benefitRepository: BenefitRepository,
 ) {
@@ -21,12 +21,13 @@ class PlanService(
         val allCarrierDtoList = mobileCarrierRepository.findAllById(allCarrierIds).map { it.toMobileCarrierDto() }
         val allViewCountData = mobilePlanViewRepository.getMobilePlanViewCountData()
         val allBenefits = benefitRepository.findAll()
-        val allBenefitRelations = mobilePlanBenefitRelationRepository.findAll()
+        val allBenefitRelations = mobileCarrierBenefitRelationRepository.findAll()
 
         return mobilePlanRepository.findAll()
             .mapNotNull { mobilePlanEntity ->
                 val mobileCarrierDto =
                     allCarrierDtoList.firstOrNull { mobileCarrierDto -> mobileCarrierDto.id == mobilePlanEntity.mobileCarrierId }
+                        ?: return@mapNotNull null
 
                 val mobilePlanDto = mobilePlanEntity.toMobilePlanDto(mobileCarrierDto)
                     ?: return@mapNotNull null
@@ -35,8 +36,9 @@ class PlanService(
                     allViewCountData.firstOrNull { data -> data.itemId.toInt() == mobilePlanDto.id }?.viewCount?.toInt()
                         ?: 0
 
-                val benefitIds = allBenefitRelations.filter { relation -> relation.mobilePlanId == mobilePlanEntity.id }
-                    .map { it.benefitId }
+                val benefitIds =
+                    allBenefitRelations.filter { relation -> relation.mobileCarrierId == mobileCarrierDto.id }
+                        .map { it.benefitId }
 
                 val benefitTitleList = allBenefits.filter { benefit -> benefit.id in benefitIds }.map { it.title }
                 mobilePlanDto.banners = getBannerList(mobilePlanDto, benefitTitleList)
@@ -53,7 +55,8 @@ class PlanService(
         val mobilePlanDto = planEntity.toMobilePlanDto(carrierDto)
             ?: return null
 
-        val benefitIds = mobilePlanBenefitRelationRepository.findAllByMobilePlanId(planId).map { it.benefitId }
+        val benefitIds =
+            mobileCarrierBenefitRelationRepository.findAllByMobileCarrierId(carrierDto.id).map { it.benefitId }
         val benefitDtoList = benefitRepository.findAllById(benefitIds).map { it.toBenefitDto() }
 
         mobilePlanDto.benefit = benefitDtoList
