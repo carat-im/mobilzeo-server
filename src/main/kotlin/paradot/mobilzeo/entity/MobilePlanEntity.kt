@@ -8,7 +8,7 @@ import jakarta.persistence.Id
 import paradot.mobilzeo.dto.MobileCarrierDto
 import paradot.mobilzeo.dto.MobilePlanDto
 
-@Entity(name = "mobile_plan_400")
+@Entity(name = "mobile_plan_1939")
 class MobilePlanEntity {
 
     @Id
