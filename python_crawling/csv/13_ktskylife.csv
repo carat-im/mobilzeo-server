@@ -1,0 +1,31 @@
+name,data_per_month,data_per_day,data_exhaustion_speed,call_minutes,text_messages,price_initial,mobile_carrier_id,cta_url
+데이터 충분 2.2GB+/100분,2200,,,100,100,11700,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/161
+모두충분 7.0GB+,7000,,,-1,-1,17500,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/300
+모두충분 11.0GB+,11000,,,-1,-1,33900,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/320
+슬림 1GB/100분,1000,,,100,100,4900,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/403
+슬림 1.5GB/150분,1500,,,150,150,6600,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/402
+슬림 2GB/200분,2000,,,200,200,7700,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/401
+슬림 3GB/300분,3000,,,300,300,9900,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/400
+통화 충분 1.5GB,1500,,,-1,-1,7900,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/282
+통화 충분 2.5GB,2500,,,-1,-1,8600,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/281
+통화 충분 4.5GB,4500,,,-1,-1,10850,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/280
+통화 충분 6.5GB,6500,,,-1,-1,11900,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/460
+통화 충분 10GB,10000,,,-1,-1,14900,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/424
+통화 충분 15GB,15000,,,-1,-1,19500,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/423
+통화 충분 20GB,20000,,,-1,-1,24000,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/422
+데이터 충분 2.2GB+/100분,2200,,,100,100,11700,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/161
+데이터 충분 5GB+/100분,5000,,,100,100,14300,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/162
+데이터 충분 15GB+/100분,15000,,,100,100,25300,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/12
+데이터 충분 15GB+/300분,15000,,,300,300,27500,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/163
+모두 충분 1.5GB+,1500,,,-1,-1,9900,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/464
+모두 충분 2.5GB+,2500,,,-1,-1,11800,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/8
+모두 충분 4.5GB+,4500,,,-1,-1,13200,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/463
+모두 충분 6GB+,6000,,,-1,-1,14900,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/462
+모두충분 7.0GB+,7000,,,-1,-1,17500,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/300
+모두 충분 10GB+,10000,,,-1,-1,18900,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/461
+모두충분 11.0GB+,11000,,,-1,-1,33900,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/320
+모두 충분 100GB+,100000,,,-1,-1,39600,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/421
+모두 충분 일5GB+,5000,,,-1,-1,39600,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/420
+5G 통화 충분 5GB,5000,,,-1,-1,15300,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/225
+5G 통화 충분 7GB,7000,,,-1,-1,18700,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/226
+5G 모두 충분 10GB+,10000,,,-1,-1,38500,13,https://www.skylife.co.kr/SE/BR-SE0301-010000/1

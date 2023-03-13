@@ -1,0 +1,105 @@
+name,data_per_month,data_per_day,data_exhaustion_speed,call_minutes,text_messages,price_initial,mobile_carrier_id,cta_url
+DATA 걱정없는 유심 1GB,1000,,,-1,-1,7500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+DATA 걱정없는 유심 2.5GB,2500,,,-1,-1,25100,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+DATA 걱정없는 유심 4.5GB,4500,,,-1,-1,13900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+DATA 걱정없는 유심 5GB,5000,,,-1,-1,15900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+DATA 걱정없는 유심 6GB,6000,,,-1,-1,16900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+DATA 걱정없는 유심 7GB,7000,,,-1,-1,17500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+DATA 걱정없는 유심 10GB,10000,,,-1,-1,26900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+DATA 걱정없는 유심 일5GB,0,5000,,-1,-1,41500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+The 착한 데이터 유심 11GB,11000,,,-1,-1,33990,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+The 착한 데이터 유심 1.3GB,1300,,,-1,-1,6990,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+The 착한 데이터 유심 2.5GB,2500,,,-1,-1,7800,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+The 착한 데이터 유심 3.6GB,3600,,,-1,-1,8900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+The 착한 데이터 유심 9GB 3000분,9000,,,3000,1000,14900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+보편 유심 3.5GB 150분,3500,,,150,100,8500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+보편 유심 5GB 100분,5000,,,100,50,9500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+보편 유심 5GB 200분,5000,,,200,100,9900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+보편 안심 유심 1GB 100분,1000,,,100,100,7900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+슬림 안심 유심 2.5GB 200분,2500,,,200,100,10500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+슬림 안심 유심 2.5GB 250분,2500,,,250,250,11200,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+보편 안심 유심 3GB 200분,3000,,,200,100,12500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+보편 안심 유심 5GB 100분,5000,,,100,100,13500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+보편 안심 유심 5GB 200분,5000,,,200,100,13900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+보편 안심 유심 6GB 200분,6000,,,200,100,15200,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+보편 안심 유심 10GB 100분,10000,,,100,100,17500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+보편 안심 유심 10GB 200분,10000,,,200,100,18900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+보편 안심 유심 15GB 100분,15000,,,1001,100,28820,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+CU 유심 1.5GB 150분,1500,,,150,150,5500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+CU 유심 2GB 100분,2000,,,100,100,5940,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+CU 유심 3GB 250분,3000,,,250,100,7700,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+CU 유심 7GB 180분,7000,,,180,100,16800,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+CU 유심 10GB 100분,10000,,,100,100,20900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+CU 유심 10GB 180분,10000,,,180,180,22900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+CU 안심 유심 5GB 100분,5000,,,100,100,14900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+CU 안심 유심 10GB 200분,10000,,,200,100,18900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+CU 안심 유심 11GB,11000,,,-1,-1,33990,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+CU 안심 유심 15GB 100분,15000,,,1001,100,28820,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+CU 안심 유심 일 5GB,0,5000,,-1,-1,41500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+토이저러스 키즈 유심 100MB,100,,,50,100,7260,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+토이저러스 키즈 유심 2.5GB,2500,,,100,100,15290,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+청소년 안심 유심 27,750,,,-1,-1,16500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+슬림 유심 500MB 50분,500,,,50,50,1900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+슬림 유심 1GB 100분,1000,,,100,50,3900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+슬림 유심 2GB 200분,2000,,,200,150,6600,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+슬림 안심 유심 1GB 100분,1000,,,100,50,8800,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+보편 안심 USIM 15GB,15000,,,100,100,25300,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+이마트24 유심 7GB 180분,7000,,,180,100,16800,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+이마트24 안심 유심 500MB 50분,500,,,50,50,7920,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+이마트24 안심 유심 5GB 200분,5000,,,200,100,16000,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+이마트24 안심 유심 10GB 200분,10000,,,200,100,18900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+이마트24 안심 유심 11GB,11000,,,-1,-1,33990,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+프레딧 유심 1.5GB 150분,1500,,,150,150,5500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+프레딧 데이터 프리 유심 7GB,7000,,,-1,-1,17500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+프레딧 데이터 프리 유심 11GB,11000,,,-1,-1,33990,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+5G 유심 6GB 200분,6000,,,200,100,9900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+5G 유심 10GB 200분,10000,,,200,100,14900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+5G 유심 15GB 200분,15000,,,200,100,20900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+5G 유심 통화 맘편히 3GB,3000,,,-1,-1,7990,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+5G 유심 통화 맘편히 6GB,6000,,,-1,-1,11900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+5G 유심 통화 맘편히 9GB,9000,,,-1,-1,14500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+5G 라이트 유심 12GB,12000,,,-1,-1,34900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+5G 스탠다드 유심 150GB,150000,,,-1,-1,49900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+5G 스페셜 유심 180GB,180000,,,-1,-1,55000,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+사과 5G 스페셜 유심 180GB (10Mbps),180000,,,-1,-1,60500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+조건없는 USIM LTE 500MB,500,,,8800,50,3740,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+헬로 USIM 2GB 200분,2000,,,200,100,7370,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+LTE 유심 복지 3.5GB 150분,3500,,,150,100,8500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+헬로 USIM 5GB 200분,5000,,,200,100,12980,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+보편 USIM 6GB,6000,,,100,100,26400,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+보편 USIM 10GB,10000,,,100,100,20900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+조건없는 USIM LTE 1GB,1000,,,8800,50,4950,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+조건없는 USIM LTE 21,1500,,,200,200,23100,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+조건없는 USIM LTE 26,2500,,,250,250,28600,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+조건없는 USIM LTE 31,6000,,,350,350,34100,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+착한 페이백 데이터 USIM 1GB,1000,,,-1,-1,26900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+착한 페이백 데이터 USIM 2GB,2000,,,-1,-1,35900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+슬림 안심 USIM 1GB 100분,1000,,,100,50,9900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+LTE USIM 복지 19,1500,,,200,200,20900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+조건없는 USIM LTE 수다 750MB,750,,,130,-1,19800,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+조건없는 USIM LTE 수다 1.5GB,1500,,,185,-1,25300,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+헬로 USIM 수다 1.5GB,1500,,,-1,-1,9130,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+The 착한 데이터 USIM 100MB,100,,,-1,-1,19800,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+The 착한 데이터 USIM 300MB,300,,,-1,-1,11550,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+The 착한 데이터 USIM 2GB(new),2000,,,-1,-1,10120,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+The 착한 데이터 USIM 6GB,6000,,,-1,-1,29700,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+The 착한 데이터 USIM 10GB,10000,,,-1,-1,33990,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+The 착한 데이터 USIM 15GB,15000,,,-1,-1,54890,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+데이터 걱정없는 USIM 2.5GB,2500,,,-1,-1,25100,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+데이터 걱정없는 USIM 3GB,3000,,,-1,-1,25950,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+데이터 걱정없는 USIM 7GB,7000,,,-1,-1,17500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+데이터 걱정없는 USIM 100GB,100000,,,-1,-1,41500,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+조건없는 USIM LTE 23,1600,,,180,200,23100,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+조건없는 USIM LTE 28,2600,,,250,250,28600,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+조건없는 USIM LTE 31,5000,,,350,350,34100,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+약정 USIM LTE 500MB,500,,,8800,50,6490,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+약정 USIM LTE 1GB,1000,,,8800,50,10890,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+약정 USIM LTE 21,1500,,,200,200,23100,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+약정 USIM LTE 26,2500,,,250,250,28600,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+약정 USIM LTE 31,6000,,,350,350,34100,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+CU USIM 1.5GB 150분,1500,,,150,150,5940,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+CU USIM 2GB 100분,2000,,,100,100,6050,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+CU USIM 3GB 250분,3000,,,250,250,10230,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+CU USIM 7GB 180분,7000,,,180,100,16800,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+CU USIM 10GB 100분,10000,,,100,100,20900,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL
+CU USIM 10GB 300분,10000,,,300,300,25850,14,https://mobile.lghellovision.net/mv_Client/rate/rate_01_01_list.asp?PType=USIM&Telecom=ALL

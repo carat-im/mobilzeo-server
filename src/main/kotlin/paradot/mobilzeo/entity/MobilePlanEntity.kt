@@ -109,6 +109,8 @@ class MobilePlanEntity {
 
     var name: String = ""
 
+    var priority: Int = 0
+
     fun toMobilePlanDto(carrierDto: MobileCarrierDto?): MobilePlanDto? {
         if (carrierDto == null) {
             return null
@@ -144,7 +146,7 @@ class MobilePlanEntity {
             internet_iptv = internetIptv,
             family_complimentary = familyComplimentary,
             data_sharing = dataSharing,
-            priority = 0,
+            priority = priority,
             signup_auth = signupAuth,
             signup_minors = signupMinors,
             signup_foreigners = signupForeigners,
